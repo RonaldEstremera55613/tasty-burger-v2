@@ -1,0 +1,21 @@
+/* Cart wrapper — position context for the dropdown */
+.cart-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.cart-button {
+  padding: 8px 14px;
+  border: 1px solid var(--border-dark);
+  border-radius: 20px;
+  background: transparent;
+  color: var(--text-light);
+  font-weight: 600;
+  cursor: pointer;
+  transition: border-color 0.15s, color 0.15s;
+}
+
+.cart-button:hover {
+  border-color: var(--red);
+  color: var(--red-bright);
+}
